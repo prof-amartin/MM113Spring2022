@@ -1,0 +1,64 @@
+document, body {
+   font-family: Arial;
+   color: #444;
+   margin: 0px;
+   background: #F0F0F0;
+}
+h1, h2 {
+    margin: 0px;
+    font-weight: 400;
+}
+h1 {
+    height: 20vh;
+    line-height: 20vh;
+    padding-left: 20px;
+}
+.main, .menu, h1 {
+    vertical-align: middle;
+    box-sizing: border-box;
+}
+.main {
+    width: 50vw;
+    min-height: 80vh;
+    display: inline-block;
+    box-shadow: 0 4px 10px 0 rgba(0,0,0,0.2), 0 4px 20px 0 rgba(0,0,0,0.19);
+    background: #FFF;
+}
+.menu {
+    width: 30vw;
+    min-height: 80vh;
+    display: inline-block;
+}
+.menu h2 {
+    color: #1DA1F2;
+    padding: 20px;
+}
+.menu .container {
+    margin: 0px 20px;
+}
+.menu .btn {
+    margin-bottom: 3px;
+}
+.fa-twitter {
+    color: #1DA1F2;
+}
+
+.tweet, .tweet-pink {
+    border-bottom: solid 1px #DDD;
+    padding: 20px;
+}
+.tweet img, .tweet-pink img {
+    height: 200px;
+}
+.tweet-pink {
+    background: #FFEEF2;
+}
+.tweet-pink:hover {
+    background: #FFC8FB;
+}
+.twitterClass{
+  color: green;
+}
+.UserClass{
+  color: red;
+}

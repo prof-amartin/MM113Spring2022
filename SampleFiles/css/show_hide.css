@@ -1,0 +1,15 @@
+.circle{
+  width: 100px;
+  height: 100px;
+  background-color: blue;
+  border-radius: 50%;
+}
+.cube{
+  width: 100px;
+  height: 100px;
+  background-color: green;
+}
+
+input[type="button"]{
+  margin-top: 0px;
+}

@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Twitter Tester</title>
+        <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" />
+        <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" />
+        <link href="css/style.css" rel="stylesheet" />
+    </head>
+    <body>
+        <!-- Top Header -->
+        <h1>
+            <i class="fa fa-twitter"></i>
+            Twitter Demo
+        </h1>
+
+        <!-- Left Menu -->
+        <aside class="menu">
+            <div class="container">
+                <h2 id="freebie">DOM Manipulators</h2>
+                <button class="btn" onClick="tweet1()">
+                    Show Tweet  #1
+                </button>
+                <br>
+                <button class="btn" onClick="tweet2()">
+                    Show Tweet  #2
+                </button>
+                <br>
+                <button class="btn" onClick="tweet3()">
+                    Show Tweet  #3
+                </button>
+                <br>
+                <button class="btn" onClick="showAll()">
+                    Show All Tweets
+                </button>
+            </div>
+        </aside>
+
+        <!-- Tweet Panel -->
+        <main class="main">
+
+            <!-- Tweet #3 -->
+            <article id="tweet3" class="tweet">
+                <i class="fa fa-user"></i>
+                <a href="#"></a>
+                <span class="username"></span> &bull;
+                <span class="date"></span>
+                <div class="message"></div>
+            </article>
+
+            <!-- Tweet #2 -->
+            <article id="tweet2" class="tweet">
+                <i class="fa fa-user"></i>
+                <a href="#"></a>
+                <span class="username"></span> &bull;
+                <span class="date"></span>
+                <div class="message"></div>
+            </article>
+
+            <!-- Tweet #1 -->
+            <article id="tweet1" class="tweet">
+                <i class="fa fa-user"></i>
+                <a href="#"></a>
+                <span class="username"></span> &bull;
+                <span class="date"></span>
+                <div class="message"></div>
+            </article>
+
+            <div id="all">
+
+            </div>
+
+        </main>
+        <script src="scripts/tweet-data.js"></script>
+        <script src="scripts/show2.js"></script>
+    </body>
+</html>

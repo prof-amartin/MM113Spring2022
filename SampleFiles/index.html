@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>MM-113 Twitter App Demo</title>
+        <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" />
+        <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" />
+        <link href="css/style.css" rel="stylesheet" />
+    </head>
+    <body>
+        <!-- Top Header -->
+        <h1>
+            <i class="fa fa-twitter"></i>
+            MM-113 Twitter Demo
+        </h1>
+
+        <!-- Left Menu -->
+        <aside class="menu">
+            <div class="container">
+                <h2 id="freebie">DOM Manipulators</h2>
+                <button class="btn" onClick="modifyText()">
+                    1. Modify Text
+                </button>
+                <br>
+                <button class="btn" onClick="changeLinkAndImageAttributes()">
+                    2. Change Links and Image
+                </button>
+                <br>
+                <button class="btn" onClick="changeClassAttribute()">
+                    3. Change Classes
+                </button>
+                <br>
+                <button class="btn" onClick="appendElements()">
+                    4. Append Elements
+                </button>
+            </div>
+        </aside>
+
+        <!-- Tweet Panel -->
+        <main class="main">
+
+            <!-- Tweet #2 -->
+            <article id="tweet2" class="tweet">
+                <i class="fa fa-user"></i>
+                <a id="link2" href="#">Ohlone</a>
+                <span id="user2">@placeholder</span> &bull;
+                <span>August 31</span>
+                <div id="message2">
+                    Tweet text goes here
+                </div>
+                <img id="Ohlone" src="https://pbs.twimg.com/media/D7BkmmkUwAARREs.jpg" />
+            </article>
+
+            <!-- Tweet #1 -->
+            <article id="tweet1" class="tweet">
+                <i class="fa fa-user"></i>
+                <a id="link1" href="#">New York Times</a>
+                <span id="user1">@nytimes</span> &bull;
+                <span>August 31</span>
+                <div id="message1">This is my first Tweet!</div>
+            </article>
+
+        </main>
+        <script src="scripts/main.js"></script>
+    </body>
+</html>
